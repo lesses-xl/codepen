@@ -4,6 +4,7 @@
 	border:  2px solid blue;
 	margin: 100px auto;
 	position: relative;
+	overflow: hidden;
 }
 
 .wall-sub {
@@ -12,6 +13,11 @@
 	display: inline-block;
 	position: absolute;
 	right: 0;
+	max-height: 35px;
+	transition: right .3s;
+	width: auto;
+	text-align: center;
+	font-size: 18px;
 }
 
 .wall-sub a {
